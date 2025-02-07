@@ -26,4 +26,18 @@ Artist page
 - about page 
 	- share profile link
 	- about her 
-	
+
+Footer
+- Logo 
+- About the website
+
+Links
+- Home
+- About 
+- Gallery
+- Contact
+
+Social Links
+- Facebook
+- Instagram
+- Twitter 
