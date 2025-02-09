@@ -1,5 +1,10 @@
-root{
-
+:root{
+    /* Font Color */
+    --default-font-color: #eae9e9;
+    --button-font-color: #000000;
+    /* Button Color */
+    --button-color: #2A4FFF;
+    --inside-container-font-color: #889CFA;
 }
 
 
@@ -7,6 +12,7 @@ root{
     margin: 0;
     padding: 0;
 }
+
 
 
 /* Home page */
