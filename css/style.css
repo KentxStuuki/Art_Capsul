@@ -17,29 +17,29 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding: 2%;
+    padding: 1% 0;
+}
+
+.logo-container img{
+    width: 10%;
+    height: auto;
+    padding: 1.5% 4%;
 }
 
 nav ul, li, a{
     display: flex;
     text-decoration: none;
     color: var(--second-font-color);
+    padding: 2% 0;
+
 }
 
 nav li{
     display: inline-block;
 }
 
-nav a, .Active{
+nav a{
     padding: 0 40px;
-}
-
-
-.Active{
-    color: var(--second-font-color);
-    background-color: var(--inside-container-font-color);
-    padding: 0 12%;
-    width: 100%;
 }
 
 /* Home page */
