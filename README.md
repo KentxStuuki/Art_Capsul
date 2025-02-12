@@ -11,7 +11,13 @@ And a proper working slider and other animations like Mobile navbar.
 ## Figma link to view wireframe for both Desktop and Mobile
 [Art Capsul Wireframe](https://www.figma.com/design/5xbjGs4uDHiDDttIPyatq4/Art-Capsul-wireframe?node-id=0-1&p=f&t=PCXah6VO20S0CK7T-0)
 
-## Art_Capsul Structure
+## Adding in Login and Sign in 
+- Going to use Firebase for the data base on both the account user and user folde.
+
+## Art_Capsul Pages
+Login & Sign up page
+- Can create a accound and can post individually
+
 home 
 - Features ng mga artist ng mga best work nila
 
@@ -22,7 +28,6 @@ Gallery
 - Gallery of works 
 
 Contact
-
 
 Artist page
 - gallery below
