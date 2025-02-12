@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "firebase": "^11.3.1"
-  }
+  },
+  "name": "art_capsul",
+  "version": "1.0.0",
+  "description": "This Repository is dedicated to hold the Art Capsul Project.\r This will also the recreation of the old first project and will try to compare them in the end of the code progress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
