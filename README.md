@@ -16,10 +16,12 @@ And a proper working slider and other animations like Mobile navbar.
 
 ## Art_Capsul Pages
 Login & Sign up page
-- Can create a accound and can post individually
+- Can create a account and can post individually 
+- Must have an `auth` that the admin can `remove` and can `edit` in case the user wants to change something.
 
 home 
 - Features ng mga artist ng mga best work nila
+- grid na 4 column ung initial design inside of those each container dapat makikita profile, image and possble `like button` in the future if magagwang responsive
 
 About 
 - Mission & vision ng website
