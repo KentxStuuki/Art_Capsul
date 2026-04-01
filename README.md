@@ -1,53 +1,70 @@
-# Art_Capsul
-This Repository is dedicated to hold the Art Capsul Project.
-This will also the recreation of the old first project and will try to compare them in the end of the code progress.
+# Art Capsul
 
-## What is my goal?
-Goal is to have a much clean html syntax.
-Have a much less and more advance CSS.
-And a proper working slider and other animations like Mobile navbar.
+**Art Capsul** is a web project dedicated to showcasing artwork and artist profiles in a modern, responsive interface. This repository contains the full source code including HTML, CSS, and JavaScript necessary to build and run the application.
 
+---
 
-## Figma link to view wireframe for both Desktop and Mobile
-[Art Capsul Wireframe](https://www.figma.com/design/5xbjGs4uDHiDDttIPyatq4/Art-Capsul-wireframe?node-id=0-1&p=f&t=PCXah6VO20S0CK7T-0)
+## 🚀 Project Overview
 
-## Adding in Login and Sign in 
-- Going to use Firebase for the data base on both the account user and user folde.
+Art Capsul aims to:
 
-## Art_Capsul Pages
-Login & Sign up page
-- Can create a account and can post individually 
-- Must have an `auth` that the admin can `remove` and can `edit` in case the user wants to change something.
+- Present featured artworks by various artists
+- Provide user interaction through Login & Signup
+- Display galleries and artist profiles
+- Use a clean layout with responsive design
 
-home 
-- Features ng mga artist ng mga best work nila
-- grid na 4 column ung initial design inside of those each container dapat makikita profile, image and possble `like button` in the future if magagwang responsive
+This is a *recreation and improvement* of the original initial project, focusing on better structure, cleaner code, and improved user experience.
 
-About 
-- Mission & vision ng website
+---
 
-Gallery 
-- Gallery of works 
+## 🧠 Goals
 
-Contact
+- Write clean, semantic HTML
+- Use modern, efficient CSS layouts
+- Implement a responsive mobile-first design
+- Add interactive components (e.g., sliders)
+- Integrate authentication using Firebase
 
-Artist page
-- gallery below
-- about page 
-	- share profile link
-	- about her 
+---
 
-Footer
-- Logo 
-- About the website
+## 📌 Features
 
-Links
-- Home
-- About 
-- Gallery
-- Contact
+### 🔐 Authentication
+- Login & Signup pages
+- User login using Firebase
 
-Social Links
-- Facebook
-- Instagram
-- Twitter 
+### 🖼️ Pages Included
+✔ Home  
+✔ About  
+✔ Gallery  
+✔ Contact  
+✔ Artist Page  
+
+### ⚙️ Planned Enhancements
+- Like / favorite artwork
+- Admin moderation
+- Improved gallery filters
+
+---
+
+## 🎨 Wireframe & Design
+
+You can view the wireframes used as design references here:  
+👉 **[Art Capsul Wireframe on Figma](https://www.figma.com)**
+
+*(Replace this with the actual link if different)*
+
+---
+
+## 🧰 Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| HTML       | Structure |
+| CSS        | Styling |
+| JavaScript | Interactivity |
+| Firebase   | User authentication |
+
+---
+
+## 📁 Project Structure
