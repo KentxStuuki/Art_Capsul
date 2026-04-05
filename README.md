@@ -27,18 +27,14 @@ This is a *recreation and improvement* of the original initial project, focusing
 
 ---
 
-## 📌 Features
-
-### 🔐 Authentication
-- Login & Signup pages
-- User login using Firebase
-
 ### 🖼️ Pages Included
 ✔ Home  
 ✔ About  
 ✔ Gallery  
 ✔ Contact  
 ✔ Artist Page  
+
+--- 
 
 ### ⚙️ Planned Enhancements
 - Like / favorite artwork
@@ -63,8 +59,5 @@ You can view the wireframes used as design references here:
 | HTML       | Structure |
 | CSS        | Styling |
 | JavaScript | Interactivity |
-| Firebase   | User authentication |
 
----
 
-## 📁 Project Structure
