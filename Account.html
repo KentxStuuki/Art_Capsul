@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<!--
+		Name: Mark Erolle D. Quiambao
+		Section: WD-201
+		Website Name: Art Capsul
+		Started: November 13,2023
+		Date of Submission:  NOvember 17, 2023
+	-->
+	<title>Sign Up | ART CAPSUL</title>
+	<meta charset = "utf-8"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="widt=device-width, inital-scale=1.0">
+	<link rel="stylesheet" href = "css/grid.css">
+    <link rel="stylesheet" href = "css/Account.css">
+	<link rel="apple-touch-icon" sizes="192x192" href="img/websiteimg/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/websiteimg/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/websiteimg/favicon-16x16.png">
+</head>
+	<body>
+		<nav>
+			<ul class="sidebar">
+				<li onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+				<li><a href="Home.html">Art Capsul</a></li>
+				<li><a href = "Home.html">Home</a></li>
+				<li><a href="Gallery.html">Artists</a></li>
+				<li><a href = "FAQs.html">FAQs</a></li>
+				<li><a href ="AboutUs.html">About Us</a></li>
+				<li><a href ="ForArtist.html">For Artist</a></li>
+				<li><a href = "Legalpage/Terms.html">Terms & Conditions</a></li>
+				<li><a href = "Legalpage/Privacy.html">Privacy Policy</a></li>
+				<li><a href = "Legalpage/Cookie.html">Cookie Policy</a></li>
+			</ul>
+			<ul>
+				<li><a href="Home.html">Art Capsul</a></li>
+				<li class="hideOnMobile"><a href = "Home.html">Home</a></li>
+				<li class="hideOnMobile"><a href="Gallery.html">Artists</a></li>
+				<li class="hideOnMobile"><a href = "Profile.html">Profile</a></li>
+				<li class="hideOnMobile"><a href = "FAQs.html">FAQs</a></li>
+				<li class="hideOnMobile"><a href ="AboutUs.html">About Us</a></li>
+				<li class="hideOnMobile"><a href ="ForArtist.html">For Artist</a></li>
+				<li class="menu-button"onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+			</ul>		
+		</nav>
+		<main>
+            <div class="container">
+                <div class="tittle">
+                    <div class="info-sign">
+                        <fieldset><legend>Your Account Information</legend>
+							<label class ="banner1" for="fName">User Name:</label>
+                            <input class="box1" type="text" name="fName" id="fName"/>
+                            <label class ="banner1" for="lName">Last Name:</label>
+                            <input class="box1" type="text" name="lName" id="lName"/>
+
+						</fieldset>
+						<fieldset>
+							<legend>Your Description</legend>
+							<label class ="banner1" for="Acoount">Description:</label>
+                            <textarea class = "comment"name = "questions" id = "questions" rows="6" cols="51"></textarea>
+
+                            <label class ="banner1" for="Language">Language:</label>
+                            <input class="box1" type="type" id="Language" name="Language"/>
+
+							<label class ="banner1" for="Acoount">Link Account:</label>
+                            <input class="box1" type="email" id="email" name="email"/>
+
+							<label class ="banner1" for="Skills">Skills:</label>
+                            <input class="box1" type="text" id="skill" name="skill"/>
+
+							<label class ="banner1" for="Education">Education:</label>
+                            <input class="box1" type="text" id="Education" name="Education"/>
+
+							<label class ="banner1" for="Certificate">Certificate:</label>
+                            <input class="box1" type="text" id="Certificate" name="Certificate"/>
+
+							<label class ="banner1" for="Types">Type of Drawing:</label>
+                            <input class="box1" type="text" id="type" name="type"/>
+
+							<label class ="banner1" for="About">About Artist:</label>
+                            <textarea class ="comment"name = "questions" id = "questions" rows="6" cols="51"></textarea>
+                            
+                        </fieldset>
+                        <a href="Home.html"><button class="apply" type="button" onclick="">Sign In</button></a>
+                    </div>
+                </div>
+            </div>
+		</main>
+		<footer>
+			<div class="hide-box-footer">
+				<div class="footer-box ">
+					<div class="Description-two">
+						<h1><a href = "Home.html">ART CAPTSUL</a></h1>
+						<p>Bring your ideas to life with our personalized <br>art commissions and transform your vision into <br>reality with the help of <a href = "Home.html">ART CAPTSUL</a></p>
+                        <div><p onclick="darkMode()">Darkmode</p></div>
+                    </div>
+					<div class="Legal">
+						<h3>Legal</h3>
+						<p><a href = "Legalpage/Terms.html">Terms & Conditions</p>
+						<p><a href = "Legalpage/Privacy.html">Privacy Policy</a></p>
+						<p><a href = "Legalpage/Cookie.html">Cookie Policy</a></p>
+					</div>
+					<div class="Services">
+						<h3>Services</h3>
+						<p><a href = "FAQs.html">FAQs</a></p>
+						<p><a href="ForArtist.html">For Artist</a></p>
+						<p><a href="AboutUs.html">About Us</a></p>
+					</div>
+					<div class="contact">
+						<h3>Contact</h3>
+						<p><a href="#" class="fa fa-twitter"> Twitter</a></p>
+						<p><a href="#" class="fa fa-instagram"> Instagram</a></p>
+						<p><a href="#" class="fa fa-pinterest"> Pinterest</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="name"><p>&copy; Copyright 2023. All rights reserved.Created by Mark Erolle D. Quiambao</p></div>
+		</footer>
+        <script src="scripts/buttons.js"></script>
+	</body>
+</html>

@@ -1,0 +1,208 @@
+/*
+    Name: Mark Erolle D. Quiambao
+	Section: WD-201
+	Website Name: Art Capsul
+	Started: November 19,2023
+	Date of Submission:  NOvember 17, 2023
+*/
+.first-container{
+    margin-top: 10px;
+}
+
+.image-cont{
+    background-image: linear-gradient(to right, rgba(255,165,0,0.3),rgba(0,0,0,0.1)), url(../img/websiteimg/BAckground4.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    width: 900px;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    gap: 150px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+
+.msg {
+    position: absolute;
+    top: 40%;
+    left: 750px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    width: 1060px;
+    height: 50vh;
+    padding: 20px;
+  }
+
+.msg h2{
+    margin-top: 11%;
+    text-align: center;
+    font-size: 50px;
+    color: #f1f1f1;
+}
+
+.msg p{
+    text-align: center;
+    font-size: 20px;
+    color: #f1f1f1;
+}
+
+.thanks{
+    text-align: center;
+   
+}
+
+.thanks-2{
+    text-align: center;
+   margin-bottom: 100px;
+}
+
+
+.apply button{
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    padding: 10px;
+    width: 280px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.mid-container {
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 60px;
+}
+.mid-container h2{
+    text-align: left;
+    width: 1000px;
+}
+
+.mid-container p{
+    text-align: left;
+    width: 1000px;
+}
+.mid-container li{
+    text-align: left;
+    width: 1000px;
+}
+.line{
+    width: 750px;
+    margin-left: 24%;
+    margin-top: 50px;
+}
+
+.line-2{
+    width: 1400px;
+    margin-left: 3%;
+    margin-top: 50px;
+}
+
+.uppercolumn{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.first, .second, .third, .fourth, .fifth, .six{
+    text-align: center;
+    margin-right: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 25px;
+    width: 80%;
+    margin-left: 45px;
+    }
+    .uppercolumn-mobile{
+        display: none;
+    }
+    .mobile{display: none;}
+    .thanks-mobile{display: none;}
+@media screen and (max-width: 450px){
+    .image-cont{
+        display: none;
+    }
+    .desktop{
+    display: none;
+    }
+    .msg-mobile{
+        text-align: center;
+    }
+    .mobile{
+        display: block;
+    }
+    .thanks-mobile{
+        display: block;
+    }
+    .msg-mobile p{
+        width: 100%;
+        font-size: 70%;
+        margin-left: -2px;
+    }
+    .thanks-mobile h2{
+        margin-top: 10px;
+        font-size: 90%;
+        text-align: center;
+    }
+    .apply-mobile button{
+        border-radius: 20px;
+        padding: 1%;
+        margin-left: 30%;
+    }
+    .uppercolumn-mobile{
+        display: block;
+    }
+    
+    }
+@media screen and (max-width: 825px){
+        
+    }
+    
+@media screen and (max-width: 960px){
+        
+    }
+    
+@media screen and (max-width: 1030px) {
+    .image-cont{
+        background-image: linear-gradient(to right, rgba(255,165,0,0.3),rgba(0,0,0,0.1)), url(../img/websiteimg/BAckground4.jpg);
+        margin-left: -2%;
+        width: 820px;
+        height: 20vh;
+        margin-top: 13%;
+    }
+    .msg {
+        background: rgba(0, 0, 0, 0.5); 
+        width: 970px;
+        padding: 20px;
+        margin-top: -60px;
+        margin-left: -255px;
+        max-height: 300px;
+
+      }
+
+    .mid-container{
+        margin-left: 60px;
+    }
+    
+    .mid-container p{
+        width: 90%;
+    }
+    .mid-container li{
+        width: 90%;
+    }
+    .uppercolumn{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .line{
+        width: 750px;
+       margin-left: 15%;
+        margin-top: 50px;
+    }
+    
+    .line-2{
+        width: 890px;
+        margin-left: 45px;
+    }
+}

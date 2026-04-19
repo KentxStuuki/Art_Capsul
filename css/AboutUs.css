@@ -1,0 +1,277 @@
+/*
+        Name: Mark Erolle D. Quiambao
+		Section: WD-201
+		Website Name: Art Capsul
+		Started: November 19,2023
+		Date of Submission:  NOvember 17, 2023
+*/
+.tittle{
+    background-image: linear-gradient(to right, rgba(255,165,0,0.3),rgba(0,0,0,0.1)), url(../img/websiteimg/background6.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    width: 87%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    gap: 150px;
+    margin-top: 10px;
+}
+
+.intro {
+    margin-left: 5px;
+    width: 50%;
+    position: absolute;
+    top: 270px;
+    left: 50px;
+    background-color: rgba(220, 220, 220, 0.4);
+    color: black;
+    padding: 25px 25px;
+    border-radius: 30px;
+  }
+
+.two-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+  .how{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    border-radius: 10px;
+
+  }
+  .how p{
+    width: 70%;
+    margin-left: 15%;
+}
+.how-2{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    border-radius: 10px;
+
+  }
+  .how-2 p{
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+.container{
+    background-image: linear-gradient(to right, rgba(255,165,0,0.3),rgba(0,0,0,0.1)), url(../img/websiteimg/background2.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    width: 87%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    gap: 150px;
+}
+.third-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 90px;
+}
+
+.first, .second, .third, .four, .fifth, .six{
+text-align: center;
+margin: 50px;
+margin-right: 60px;
+padding-left: 5px;
+padding-right: 5px;
+border-radius: 25px;
+width: 95%;
+
+}
+
+.first{
+    background-color: rgba(220, 220, 220, 0.4);
+}
+  
+.second{
+    background-color: rgba(220, 220, 220, 0.4);
+}
+
+.third{
+    background-color: rgba(220, 220, 220, 0.4);
+}
+.four{
+    background-color: rgba(220, 220, 220, 0.4);
+}
+
+.fifth{
+    background-color: rgba(220, 220, 220, 0.4);
+}
+.six{
+    background-color: rgba(220, 220, 220, 0.4);
+}
+
+.apply button{
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    padding: 10px;
+    width: 280px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.line{
+    width: 750px;
+    margin-left: 24%;
+    margin-top: 50px;
+}
+
+.thanks-2{
+    text-align: center;
+   margin-bottom: 100px;
+}
+
+/* Media Viewport for Tablet */
+@media screen and (max-width: 700px){
+   .tittle{
+    max-width: 190px;
+    max-height: 1950px;
+   }
+ 
+   .intro{
+    display: block;
+    left: 0;
+    top: 12%;
+    width: 84%;
+   }
+   .intro p{
+    font-size: 100%;
+   }
+    .line{
+        display: none;
+    }
+    .third-column{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);  
+        margin-left: -50px;
+    }
+
+    .remover{
+        display: none;
+    }
+    .two-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .thanks-2 h2{
+        font-size: 130%;
+    }
+    .thanks-2 {
+        margin-left: -17%;
+    }
+    .apply{
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width: 825px){
+    
+}
+
+@media screen and (max-width: 960px){
+    
+}
+
+@media screen and (max-width: 1030px) {
+    .tittle{
+        background-image: linear-gradient(to right, rgba(255,165,0,0.3),rgba(0,0,0,0.1)), url(../img/websiteimg/background6.jpg);
+        background-size: cover;
+        background-repeat: none;
+        background-position: center;
+        width: 80%;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        padding: 100px;
+        gap: 150px;
+       margin-top: 10px;
+    }
+
+   .intro{
+        font-size: 10px;
+        max-height: 70vh;
+        max-width: 160%;
+        position: none; 
+        margin-top: -7%; 
+   }
+
+   .intro p, h2{
+        text-align: left;
+        width: 100%;
+        font-size: 200%;
+   }
+   .container{
+    background-image: linear-gradient(to right, rgba(255,165,0,0.3),rgba(0,0,0,0.1)), url(../img/websiteimg/background2.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    width: 80%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    gap: 150px;
+}
+
+.third-column{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-size: 20px;
+    max-width: auto;
+}
+
+.line{
+    margin-left: 3%;
+
+}   
+.first, .second, .third, .four, .fifth, .six{
+margin-bottom: -2%;
+
+    }
+.how2 h2{
+    font-size: 120%;
+    text-align: center;
+}
+.how2 p{
+    text-align: justify;
+    font-size: 110%;
+}
+.two-container{
+    margin-right: 3%;
+}
+.how-2{
+    margin-left: 10%;
+}
+
+.how3 h2{
+    font-size: 120%;
+    text-align: center;
+}
+.how-2 p{
+    text-align: justify;
+    font-size: 110%;
+}
+.line{
+    margin-left: 10%;
+}
+.thanks-2 h2{
+    margin-left: 24%;
+}
+}

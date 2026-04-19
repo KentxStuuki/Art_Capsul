@@ -1,0 +1,476 @@
+/*
+    Name: Mark Erolle D. Quiambao
+		Section: WD-201
+		Website Name: Art Capsul
+		Started: November 19,2023
+		Date of Submission:  NOvember 17, 2023
+*/
+.profile-info{
+    margin-top: -22px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+.artist-profile{
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+.artist-logo{
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+  }
+
+  .artist-name{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+
+  .rating-price-profile{
+    text-align: center;
+  }
+
+  .artist-info {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+.artist-info table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 40px;
+    }
+.bottom-container{
+  display: flex;
+}
+.desc-info{
+    margin-top: 10px;
+    margin-left: 150px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.artist-info td{
+    text-align: left;
+    padding: 5px;
+}
+
+.artist-desc{
+        box-shadow: 0 0 5px rgba(0,0,0,0.15);
+        width: 550px;
+        padding-bottom: 20px;
+}
+.artist-desc h2{
+  text-align: left;
+  margin-left: 30px;
+  padding-top: 20px;
+
+}
+.artist-desc p{
+  text-align: left;
+  margin-left: 60px;
+}
+
+.artist-desc-daaku{
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+  width: 550px;
+  padding-bottom: 20px;
+  height: 630px;
+}
+
+.artist-desc-daaku h2{
+  text-align: left;
+  margin-left: 30px;
+  padding-top: 20px;
+
+}
+.artist-desc-daaku p{
+  text-align: left;
+  margin-left: 60px;
+}
+
+.artist-desc-m{
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+  width: 550px;
+  padding-bottom: 20px;
+  height: 630px;
+}
+
+.artist-desc-m h2{
+  text-align: left;
+  margin-left: 30px;
+  padding-top: 20px;
+
+}
+.artist-desc-m p{
+  text-align: left;
+  margin-left: 60px;
+}
+
+.artist-lang{
+  padding-bottom: 3px;
+}
+
+.artist-lang h2{
+  text-align: left;
+  padding-top: 20px;
+}
+
+.artist-lang p{
+  text-align: left;
+  margin-left: 60px;
+}
+
+.artist-acc{
+  padding-bottom: 3px;
+}
+
+.box-top  {
+  display: flex;
+}
+
+.box-bottom{
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.artist-skills{
+  text-align: right;
+}
+
+.artist-second{
+  display: block;
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+  width: 400px;
+  height: 780px;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.artist-second-a{
+  display: block;
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+  width: 560px;
+  height: 730px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.artist-second-f{
+  display: block;
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+  width: 560px;
+  height: 730px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.artist-second-j{
+  display: block;
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+  width: 560px;
+  height: 730px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.artist-second-r{
+  display: block;
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+  width: 560px;
+  height: 635px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.artist-second-d{
+  display: block;
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+  width: 560px;
+  height: 645px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.artist-second-daaku{
+  display: block;
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+  width: 560px;
+  height: 650px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.artist-second-m{
+  display: block;
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+  width: 560px;
+  height: 650px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.artist-educ{
+  margin-left: 10px;
+}
+.artist-educ h2{
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.artist-educ p{
+  text-align: left;
+  margin-left: 60px;
+  margin-bottom: 55px;
+}
+
+.artist-certi{
+  margin-left: 10px;
+  margin-bottom: 57px;
+}
+.artist-certi h2{
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.artist-certi p{
+  text-align: left;
+  margin-left: 60px;
+}
+
+.artist-type{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.artist-type h2{
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.artist-type p{
+  text-align: left;
+
+}
+.box-bottom-two{
+  display: flex;
+  padding-bottom: 2px;
+}
+
+.about-artist{
+  margin-bottom: 10px;
+}
+
+.about-artist h2{
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.about-artist p{
+  text-align: center;
+  margin-top: 30px;
+}
+
+  .gallery{
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 100px;
+  }
+  .gallery-r{
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-right: -150px
+  }
+  
+  .gallery-a{
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-right: -150px
+  }
+  .gallery-d{
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-right: -150px
+  }
+  .gallery-f{
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-right: -150px
+  }
+  .gallery-j{
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-right: -150px
+  }
+  .gallery-m{
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-right: -150px
+  }
+.profile-container{
+  display: grid;
+  grid-template-columns: repeat(2, 630px);
+  column-gap: 1rem;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  width: auto;
+  padding: 16px;
+  margin-top: -26px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+  
+/* Media Viewport for Tablet */
+@media screen and (max-width: 680px){
+  .profile-container{
+    display: block !important;
+    margin-right: -100px;
+  }
+
+  .bottom-container{
+    display: block !important;
+    width: 100%;
+    
+  }
+  .mobile{
+      display: block !important;
+      margin-left: 160px;
+    }
+    .artist-second-r{
+      display: none;
+    }
+    .artist-second-a{
+      display: none;
+    }
+    .artist-second-daaku{
+      display: none;
+    }
+    .artist-second-f{
+      display: none;
+    }
+    .artist-second-j{
+      display: none;
+      
+    }
+    .artist-second-m{
+      display: none;
+    }
+    .gallery-r{
+      margin-left: 24% !important;
+    }
+    .gallery-a{
+      margin-left: 24% !important;
+    }
+    .gallery-d{
+      margin-left: 24% !important;
+    }
+    .gallery-f{
+      margin-left: 24% !important;
+    }
+    .gallery-j{
+      margin-left: 24% !important;
+    }
+    .gallery-m{
+      margin-left: 24% !important;
+    }
+  }
+
+
+
+@media screen and (max-width: 825px){
+
+
+}
+
+@media screen and (max-width: 960px){
+
+}
+
+@media screen and (max-width: 1030px) {
+
+  .artist-profile{
+    max-width: 95%;
+  }
+  .profile-container{
+    margin-left: -150px;
+    margin-top: 1%;
+  }
+
+  .bottom-container{
+    margin-left: -150px;
+  }
+}
+  

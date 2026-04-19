@@ -1,0 +1,147 @@
+/*
+        Name: Mark Erolle D. Quiambao
+		Section: WD-201
+		Website Name: Art Capsul
+		Started: November 19,2023
+		Date of Submission:  NOvember 17, 2023
+*/
+.container{
+    margin-top: 12px;
+    background-image: linear-gradient(to right, rgba(255,165,0,0.3),rgba(0,0,0,0.1)), url(../img/websiteimg/Background5.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    height: 1320px;
+}
+
+.tittle{
+    margin-left: 22%;
+    width: 800px;
+    height: 900px;
+    text-align: center;   
+}
+
+.info-sign{
+    margin-left: 27%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    bottom: 0;
+    width: 800px;
+    height: 40vh;
+    margin-top: 600px;
+    padding-bottom: 90px;
+    color: white;
+}
+
+label {
+    display: block;
+    padding-top: 3%;
+}
+
+.banner1{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 24%;
+}
+
+.box1{
+    width: 390px;
+    font-size: 15px;
+    border-radius: 7px;
+    padding-left: 11px;
+}
+
+legend{
+    font-size: 40px;
+}
+
+.apply {
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    padding: 10px;
+    width: 280px;
+    border-radius: 2px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.comment{
+    border-radius: 10px;
+}
+
+/* Media Viewport for Tablet */
+@media screen and (max-width: 450px){
+    .info-sign{
+        top: -10%;
+        left: 26%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        bottom: 0;
+        width: auto;
+        height: 40vh;
+        padding: 20px;
+        color: white;
+    }
+    .banner1{
+        font-size: 30px;
+        text-align: left;
+        margin-left: 2%;
+    }
+}
+@media screen and (max-width: 825px){
+    .info-sign{
+        top: -10%;
+        left: 26%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        bottom: 0;
+        width: auto;
+        height: 40vh;
+        padding: 20px;
+        color: white;
+    }
+
+    .banner1{
+        font-size: 30px;
+        text-align: left;
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .info-sign{
+        top: -10%;
+        left: 26%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        bottom: 0;
+        width: auto;
+        height: 40vh;
+        padding: 20px;
+        color: white;
+    }
+    .banner1{
+        font-size: 30px;
+        text-align: left;
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .info-sign{ 
+        top: -10%;
+        left: 26%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        bottom: 0;
+        width: auto;
+        height: 40vh;
+        padding: 20px;
+        color: white;
+    }
+    .banner1{
+        font-size: 30px;
+        text-align: left;
+        margin-left: 2%;
+    }
+
+}
