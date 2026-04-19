@@ -46,9 +46,9 @@ This is a *recreation and improvement* of the original initial project, focusing
 ## 🎨 Wireframe & Design
 
 You can view the wireframes used as design references here:  
-👉 **[Art Capsul Wireframe on Figma](https://www.figma.com)**
+👉 **[Art Capsul Wireframe on Figma](https://www.figma.com/design/5xbjGs4uDHiDDttIPyatq4/Art-Capsul-wireframe?node-id=0-1&t=8THNnmStG1Fz37Yf-1)**
 
-*(Replace this with the actual link if different)*
+
 
 ---
 
